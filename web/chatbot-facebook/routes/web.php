@@ -16,8 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-Route::get('/teste/{a}/{b}', function ($a, $b) {
-    return range(1,5);
-});
