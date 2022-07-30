@@ -12,3 +12,5 @@
 /web/*/yarn-error.log
 /web/*/.en
 /web/*/.idea
+/.idea
+tmp
